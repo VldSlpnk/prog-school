@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../..//fonts/Gilroy/Gilroy-Regular.woff') format('woff');
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffffe5;
+  border-radius: 15px;
+  width: 1160px;
+  height: 51px;
+}
+
+.navbar-logo {
+  width: 53px;
+  height: 20px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-family: Gilroy;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+  margin-right: 260px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.navbar-register {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+  margin: 0 10px;
+}
+
+.navbar-login {
+  text-align: center;
+  color: #fff;
+  background-color: #38bff2;
+  padding: 10px 20px 10px 25px;
+  border-radius: 34px;
+  font-family: Gilroy;
+  font-size: 12px;
+  position: relative;
+}
+.navbar-login::before {
+  content: '→';
+  padding: 15px 8px;
+  position: absolute;
+  left: 3px;
+  bottom: 5px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+}

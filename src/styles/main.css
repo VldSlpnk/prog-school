@@ -1,0 +1,14 @@
+@import './reset.css';
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../fonts/Gilroy') format('woff');
+}
+
+:root {
+  /* Colors */
+  --blackpure: #000;
+  --black: #171718;
+  --black-border: #26292d;
+  --white: #fff;
+  --purple: #5c62ec;
+}

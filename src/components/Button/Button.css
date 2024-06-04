@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../../fonts/Gilroy/Gilroy-Regular.woff') format('woff');
+}
+
+.button {
+  width: 321px;
+  height: 70px;
+  border-radius: 82px;
+  background-color: #f15525;
+}
+
+.text-button {
+  position: relative;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
+}
+.text-button::after {
+  content: '↗';
+  position: absolute;
+  right: -30px;
+  bottom: -8px;
+  z-index: 1;
+  text-align: center;
+  pointer-events: none;
+  font-size: 30px;
+}
