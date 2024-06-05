@@ -1,17 +1,13 @@
-@font-face {
-  font-family: 'Gilroy';
-  src: url('./../..//fonts/Gilroy/Gilroy-Regular.woff') format('woff');
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   background-color: #ffffffe5;
   border-radius: 15px;
-  width: 1160px;
   height: 51px;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 0 20px;
 }
 
 .navbar-logo {

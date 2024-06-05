@@ -1,0 +1,11 @@
+.tech-card {
+  text-align: center;
+  border-radius: 44px;
+}
+.card-text {
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #ffffff;
+}
