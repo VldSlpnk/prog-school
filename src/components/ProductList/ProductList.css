@@ -1,0 +1,41 @@
+.product-list {
+  background: url('../../img/background.jpg') no-repeat center center;
+  background-position: 70% 65%;
+}
+.product-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+.product-overall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-round {
+  background-color: white;
+  height: 50px;
+  border-radius: 0 0 50px 50px;
+}
+.product-subtitle {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 640px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #22253b;
+}
+.macbook-container {
+  padding-bottom: 30px;
+  position: relative;
+}
+.youtube-frame {
+  position: absolute;
+  left: 89px;
+  top: 25px;
+}
+.youtube-frame:hover {
+  cursor: pointer;
+}

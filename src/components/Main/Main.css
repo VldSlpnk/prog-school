@@ -2,7 +2,6 @@
   display: block;
   margin: 0 auto;
   max-width: 1160px;
-  padding: 0 20px;
 }
 .technologies-container {
   display: flex;
@@ -41,4 +40,10 @@
 }
 .tech-card-comp {
   width: fit-content;
+}
+.description-school-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 13px;
 }

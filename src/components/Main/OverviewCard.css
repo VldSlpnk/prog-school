@@ -1,0 +1,25 @@
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 270px;
+  height: 254px;
+  border-radius: 30px;
+  background-color: #eaf2f5;
+  gap: 20px;
+}
+.overview-title {
+  font-family: Gilroy SemiBold;
+  font-size: 16px;
+  font-weight: 600;
+  color: #22253b;
+  margin: 0 52px 10px;
+}
+.overview-subtitle {
+  font-family: Gilroy;
+  font-weight: 400;
+  color: #22253b;
+  margin: 0 12px 10px;
+}

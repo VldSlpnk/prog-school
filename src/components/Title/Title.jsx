@@ -2,9 +2,9 @@ import './Title.css'
 
 const Title = ({ text }) => {
   return (
-    <div className="title-main">
+    <h1 className="title-main">
       <span className="title-text">{text}</span>
-    </div>
+    </h1>
   )
 }
 
