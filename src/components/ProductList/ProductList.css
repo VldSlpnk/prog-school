@@ -39,3 +39,70 @@
 .youtube-frame:hover {
   cursor: pointer;
 }
+.education-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1160px;
+  height: 349px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  margin: 0 0 30px 0px;
+}
+.education-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px;
+}
+.education-number {
+  font-family: Gilroy;
+  font-size: 77px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #38bff2;
+}
+.education-title {
+  font-family: Gilroy;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+.education-subtitle {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+}
+.start-education {
+  width: 538px;
+  height: 93px;
+  background-color: white;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+.start-education-container {
+  display: flex;
+  flex-direction: row;
+}
+.start-education_button {
+  width: 249px;
+  height: 70px;
+  border-radius: 82px;
+  background-color: #f15525;
+  margin: 12px 0 11px 14px;
+}
+
+.start-education_text {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  width: 214px;
+  height: 54px;
+  margin: 20px 40px 20px 25px;
+}

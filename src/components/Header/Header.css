@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../../fonts/Gilroy/Gilroy-Regular.woff') format('woff');
+}
 .header {
   background: url('../../img/background.jpg') no-repeat center center;
   background-position: 70% 65%;
