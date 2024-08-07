@@ -1,15 +1,14 @@
 import Title from '../Title/Title'
 import macbook from '../../img/macbook.svg'
 
-import './ProductList.css'
 import ReactPlayer from 'react-player'
 import PlayIcon from './PlayIcon'
-import Button from '../Button/Button'
+import './ProductList.css'
 
 const ProductList = () => {
   return (
     <div className="product-list">
-      <div className="product-round"></div>
+      <div className="product-round-down"></div>
       <div className="product-container">
         <div className="product-overall">
           <Title text={'Как происходит обучение на YtYt?'} />
@@ -25,7 +24,7 @@ const ProductList = () => {
               <ReactPlayer
                 light
                 url={
-                  'https://www.youtube.com/watch?v=76WsuxN7MtY&ab_channel=KUTE'
+                  'https://www.youtube.com/embed/YioBy30F3AQ?si=sMkVtj_WefsbSO3y'
                 }
                 playIcon={<PlayIcon />}
                 width="585px"
@@ -74,6 +73,7 @@ const ProductList = () => {
           </div>
         </div>
       </div>
+      <div className="product-round-up"></div>
     </div>
   )
 }
