@@ -1,0 +1,113 @@
+.cost-list {
+  background: #f3f3f3;
+}
+.cost-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: block;
+}
+.cost-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.cost-table-price {
+  width: 1160px;
+  height: 550px;
+  border-radius: 30px;
+  background-color: white;
+  margin-bottom: 80px;
+}
+table {
+  font-family: Gilroy;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  caption-side: bottom;
+  padding: 10px;
+  color: #8e8e8e;
+  margin-top: 20px;
+}
+thead {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #38bff2;
+}
+tbody {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #22253b;
+}
+tfoot {
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #22253b;
+}
+tbody > tr:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+tbody > tr:nth-of-type(odd) > th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+tbody > tr:nth-of-type(odd) > td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+th,
+td {
+  padding: 10px 110px 10px 20px;
+}
+tr {
+  width: 1060px;
+  height: 60px;
+}
+
+.advertisement-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1160px;
+  height: 218px;
+  border-radius: 30px;
+  background-color: #eaf2f5;
+  padding: 65px 50px;
+  margin-bottom: 60px;
+}
+.advertisement-container img {
+  width: 91px;
+  height: 91px;
+}
+.advertisement {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.advertisement-text {
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #22253b;
+  width: 600px;
+  height: 88px;
+}

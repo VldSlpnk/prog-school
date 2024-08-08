@@ -1,0 +1,19 @@
+.cost-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+.cost-card img {
+  width: 60px;
+  height: 60px;
+}
+.cost-card-text {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #22253b;
+  max-width: 675px;
+}

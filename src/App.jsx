@@ -1,3 +1,4 @@
+import Cost from './components/Cost/Cost'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import ProductList from './components/ProductList/ProductList'
@@ -10,6 +11,7 @@ const App = () => {
       <Main />
       <ProductList />
       <Support />
+      <Cost />
     </div>
   )
 }
