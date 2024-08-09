@@ -1,4 +1,5 @@
 import Cost from './components/Cost/Cost'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import ProductList from './components/ProductList/ProductList'
@@ -12,6 +13,7 @@ const App = () => {
       <ProductList />
       <Support />
       <Cost />
+      <Footer />
     </div>
   )
 }
