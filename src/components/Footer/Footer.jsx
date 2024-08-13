@@ -43,6 +43,20 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <hr
+          style={{
+            color: '#D8D8D8',
+            backgroundColor: '#D8D8D8',
+            height: 1,
+            margin: '50px 0 30px',
+          }}
+        />
+
+        <div className="user-agreement-sec">
+          <span>© 2024 愛 luv — Все права защищены</span>
+          <span>Пользовательское соглашение</span>
+          <span>Политика конфиденциальности</span>
+        </div>
       </div>
     </div>
   )
