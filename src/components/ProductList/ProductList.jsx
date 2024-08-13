@@ -23,9 +23,7 @@ const ProductList = () => {
             <div className="youtube-frame">
               <ReactPlayer
                 light
-                url={
-                  'https://www.youtube.com/embed/YioBy30F3AQ?si=sMkVtj_WefsbSO3y'
-                }
+                url={'https://www.youtube.com/watch?v=oh0RQ_TgDnQ'}
                 playIcon={<PlayIcon />}
                 width="585px"
                 height="375px"
