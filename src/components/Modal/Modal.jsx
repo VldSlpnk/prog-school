@@ -19,7 +19,7 @@ const Modal = ({ active, setActive, openQuiz }) => {
             случае не выбирайте ответы наугад. Если вы не можете дать правильный
             ответ – выбирайте пункт «Не знаю».
           </span>
-          <Button text="Start Quiz" onClick={openQuiz} />
+          <Button text="Начать тест" onClick={openQuiz} />
         </div>
       </div>
     </div>
