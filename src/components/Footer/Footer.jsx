@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="footer-contacts">
             <div className="contacts-phone">
               <span>
-                <span className="phone">+38 (097) 702 32 75</span> <br />
+                <span className="phone">+38 (097) 702 33 75</span> <br />
                 <span className="mail">keqingsimp.cr@gmail.com</span>
               </span>
             </div>

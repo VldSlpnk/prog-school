@@ -1,0 +1,133 @@
+.quiz-modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+}
+.quiz-modal.active {
+  transform: scale(1);
+}
+.quiz-modal-container {
+  margin: 0 auto;
+}
+.quiz-modal-number {
+  width: 130px;
+  height: 40px;
+  background-color: #eaeaea;
+  border-radius: 20px;
+  padding: 7px 20px;
+}
+.quiz-modal-number span {
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #22253b;
+  margin: 0 auto;
+}
+.quiz-modal-content {
+  width: 740px;
+  height: 345px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.quiz-modal-question {
+  margin: 30px 0;
+}
+.quiz-modal-question span {
+  font-family: Gilroy;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+}
+.quiz-modal-answer {
+  display: flex;
+  flex-direction: column;
+  font-family: Gilroy;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: left;
+}
+.quiz-modal-answer button {
+  margin: 5px 0;
+}
+.quiz-modal-answer button:hover {
+  color: #f15525;
+}
+.quiz-completed {
+  display: flex;
+  flex-direction: column;
+}
+.quiz-completed-result {
+  display: flex;
+  width: 150px;
+  height: 80px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  background-color: #eaeaea;
+  margin: 0 auto;
+}
+.quiz-completed-result span {
+  display: flex;
+  position: absolute;
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 40px 30px 13px 30px;
+}
+.quiz-completed-result span::after {
+  content: '';
+  position: relative;
+  width: 19px;
+  height: 18px;
+  bottom: 25px;
+  right: 51px;
+  background-image: url('../../img/likeVector.svg');
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.quiz-completed-text {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: #22253b;
+  margin: 20px 0;
+}
+.quiz-completed-button {
+  width: 258px;
+  height: 50px;
+  border-radius: 82px;
+  background-color: #f15525;
+  margin: 0 auto;
+}
+.quiz-completed-button-text {
+  position: relative;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 14.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+}
+.quiz-completed-button-text::after {
+  content: '↗';
+  position: absolute;
+  right: -23px;
+  bottom: 2px;
+  z-index: 1;
+  text-align: center;
+  pointer-events: none;
+  font-size: 21px;
+}
