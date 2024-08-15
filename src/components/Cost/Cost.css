@@ -20,13 +20,11 @@
   margin-bottom: 80px;
 }
 table {
-  font-family: Gilroy;
   margin: 20px auto;
   border-collapse: separate;
   border-spacing: 0;
 }
 caption {
-  font-family: Gilroy;
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
@@ -37,7 +35,6 @@ caption {
   margin-top: 20px;
 }
 thead {
-  font-family: Gilroy;
   font-size: 16px;
   font-weight: 700;
   line-height: 25px;
@@ -45,7 +42,6 @@ thead {
   color: #38bff2;
 }
 tbody {
-  font-family: Gilroy;
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
@@ -53,7 +49,6 @@ tbody {
   color: #22253b;
 }
 tfoot {
-  font-family: Gilroy;
   font-size: 24px;
   font-weight: 700;
   line-height: 25px;
@@ -101,7 +96,6 @@ tr {
   gap: 30px;
 }
 .advertisement-text {
-  font-family: Gilroy;
   font-size: 17px;
   font-weight: 400;
   line-height: 22px;

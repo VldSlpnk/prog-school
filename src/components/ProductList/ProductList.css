@@ -19,7 +19,6 @@
   border-radius: 0 0 50px 50px;
 }
 .product-subtitle {
-  font-family: Gilroy;
   font-size: 16px;
   font-weight: 400;
   max-width: 640px;
@@ -57,7 +56,6 @@
   margin: 50px;
 }
 .education-number {
-  font-family: Gilroy;
   font-size: 77px;
   font-weight: 700;
   line-height: 30px;
@@ -65,14 +63,12 @@
   color: #38bff2;
 }
 .education-title {
-  font-family: Gilroy;
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
   text-align: left;
 }
 .education-subtitle {
-  font-family: Gilroy;
   font-size: 16px;
   font-weight: 400;
   line-height: 23px;

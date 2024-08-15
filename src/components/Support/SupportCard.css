@@ -33,7 +33,6 @@
 }
 
 .title-card {
-  font-family: Gilroy;
   font-size: 32px;
   font-weight: 600;
   line-height: 30px;
@@ -41,7 +40,6 @@
   margin-bottom: 20px;
 }
 .subtitle-card {
-  font-family: Gilroy;
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;

@@ -15,7 +15,7 @@ import './Main.css'
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main-x">
       <div className="main-container">
         <Title text={'Какие технологии вы изучите:'} />
         <div className="technologies-container">

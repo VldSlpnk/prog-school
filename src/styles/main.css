@@ -12,3 +12,6 @@
   --white: #fff;
   --purple: #5c62ec;
 }
+* {
+  font-family: 'Gilroy';
+}
